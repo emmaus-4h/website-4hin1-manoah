@@ -9,7 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #77bb41;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -84,7 +84,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #c0c0c0;
     overflow: hidden;
 }
 
@@ -101,9 +101,10 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #ff8c82;
+    
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #ff4013;
 }
