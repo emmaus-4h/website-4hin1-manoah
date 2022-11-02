@@ -31,7 +31,8 @@ header, footer {                  /* geldt voor header en footer */
 }
 
 main {                       
-  text-align: justify;            /* tekst uitvullen */}
+  text-align: justify;       
+}/* tekst uitvullen */
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
@@ -45,15 +46,15 @@ p {
 
 
 .kolomLinks {
-  float:right;
+  float:left;
   width:250px;
-  padding-right:15px;
-  padding-left:10px; }
+  padding-right:5px;
+  padding-left:5px; }
 
 
 .kolomRechts{
-  float:left;
-  width:440px;
+  float:right;
+  width:450px;
 }
 
 .kolomStop{
@@ -114,3 +115,5 @@ nav li a:hover {
 nav li a.active {
     background-color: #cce8b5;
 }
+
+.rij
