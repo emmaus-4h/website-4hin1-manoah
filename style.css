@@ -34,10 +34,21 @@ main {
   text-align: justify;       
 }/* tekst uitvullen */
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
-  margin: 10px 0px;
+h1, h3 {                      /* geldt voor h1 en h2 en h3 */
+  margin: 3px 0px;
   text-align: center;             /* tekst centreren */
 } 
+
+h2 {
+  margin: 3px 0px;
+  text-align:center;
+  background-color:#ffb5af;
+}
+h4{
+  margin 3px 2px;
+  text-align:center;
+  color:(#ffdad8);
+}
 
 p {
   margin: 10px 0px;
@@ -48,13 +59,13 @@ p {
 .kolomLinks {
   float:left;
   width:250px;
-  padding-right:5px;
-  padding-left:5px; }
+  padding-right:1px;
+  padding-left:1px; }
 
 
 .kolomRechts{
   float:right;
-  width:450px;
+  width:250px;
 }
 
 .kolomStop{
@@ -113,7 +124,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: #cce8b5;
+    background-color: #b1dd8c;
 }
 
 .rij
